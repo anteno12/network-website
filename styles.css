@@ -1,0 +1,17 @@
+.nav1  {
+    border:solid;
+    border-color:navy;
+    background-color:navy;
+    text-align:center;
+}
+
+a {
+    background-color:navy;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+a:hover {
+    background-color:lightblue;
+}
