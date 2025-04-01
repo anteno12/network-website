@@ -15,3 +15,68 @@ a {
 a:hover {
     background-color:lightblue;
 }
+
+.header {
+   text-align: center;
+   font-family: bebas neue;
+   font-size: 100px;
+   color: white;
+   padding: 100px;
+}
+
+
+.headerbox {
+   background: darkgreen;
+   border: 3px solid #223b1f;
+}
+
+.subheading {
+    text-align: left;
+    margin-left: 5px;
+    font-family: ubuntu;
+    font-size: 30px;
+    color: white;
+}
+
+.subsubheading {
+    text-align: left;
+    margin-left: 15px;
+    font-family: dm sans;
+    font-size: 20px;
+    color: white;
+}
+
+.text {
+    margin: 30px;
+    font-family: dm sans;
+    color: white;
+}
+
+hr {
+    border: 2px solid #2b4f27;
+}
+
+a {
+   text-decoration:none;
+   color:white;
+   padding:17px;
+   padding-top:10px;
+   padding-bottom:10px;
+   background-color:rgb(46, 66, 52);
+   width:50%;
+   margin-left:2px;
+   font-family: ubuntu;
+}
+
+.nav2 {
+   display:block;
+   width:100px;
+   line-height:2.5;
+   border:solid;
+   border-color:rgb(46,66,52);
+   background-color:rgb(46,66,52);
+}
+
+.button-styles {
+   align:center;
+}
