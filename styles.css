@@ -5,14 +5,14 @@
     text-align:center;
 }
 
-a {
+.nav-content {
     background-color:navy;
     color:white;
     text-decoration:none;
     padding:10px;
 }
 
-a:hover {
+.nav-content:hover {
     background-color:lightblue;
 }
 
