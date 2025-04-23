@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Home</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="scripts/glossary.js"></script>
+</head>
+<body>
+   <nav class="nav-cell">
+       <h3>
+           <a href="index.html">Home</a><a href="computer_networks.html">Computer Networks</a><a href="social_networks.html">Social Networks</a><a href="transmission_media.html">Transmission Media</a><a href="technologies_and_navmaps.html">Topologies and Navigation Maps</a><a href="data_processing_transmission.html">Data Processing and Transmission</a><a href="network_security.html">Network Security</a>
+       </h3>
+   </nav>
+   <div class="headerbox">
+       <h1 class="header" id="heading">COMPUTER AND SOCIAL NETWORKS</h1>
+   </div>
+   <hr>
+   <div id="content">
+
+   </div>
+   <hr>
+   <script>
+        // Each row is:
+        //    [
+        //    header,
+        //    term,
+        //    definition,
+        //    image source,
+        //    sources
+        //    ]
+        const rows = [
+             [
+             "What is a computer network?",
+             "ARPANET",
+             "The <span class=\"bold\">Advanced Research Projects Agency Network (ARPANET)<\/span> was the first wide area packet-switched computer network. First used in November 1969,  the ARPANET was the first version of the internet used by the United States, United Kingdom and Norway. It was used to facilitate communication and resource sharing between government researchers and academic institutions, allowing them to collaborate and have access to computing resources remotely. The ARPANET was the first decentralized network meaning that if one part of the network was damaged, the data could still be transmitted along other parts of the network. The first message on the network was the first two letters of login \u201Clo\u201D. The ARPANET was  inspired by the circuit switching on traditional telephone networks. It was retired in 1990 and replaced by the NSFNet, which was later shut down in 1995 paving the way for the modern internet.",
+             "images/Arpanet_logical_map,_march_1977.png",
+             "Sources: <a href=\"https:\/\/en.wikipedia.org\/wiki\/ARPANET\">https:\/\/en.wikipedia.org\/wiki\/ARPANET<\/a> <a href=\"https:\/\/www.techtarget.com\/searchnetworking\/definition\/ARPANET\">https:\/\/www.techtarget.com\/searchnetworking\/definition\/ARPANET<\/a>"
+             ],
+             [
+             "What is a computer network?",
+             "Bandwidth",
+             "Bandwidth in a network is <span class=\"bold\">a measure of the amount of data that can go through the connection at one time<\/span>. Bandwidth is an important measure of a network because it shows part of speed and the quality of the network. Network bandwidth is measured in bits per second (bps). Internet suppliers use megabits per second (mbps) or sometimes gigabytes per second (gbps). Internet providers use mbps as opposed to Mbps (megabytes per second) to market higher speeds. One Mbps is equivalent to 8 mbps because 1 byte is equal to 8 bits.",
+             "images/what-is-bandwidth-26258091-957d0a321cbe4b09b05b4b211b7e7e6b.png",
+             "Sources: <a href=\"https:\/\/www.solarwinds.com\/resources\/it-glossary\/network-bandwidth\">https:\/\/www.solarwinds.com\/resources\/it-glossary\/network-bandwidth<\/a>"
+             ],
+             [
+             "What is a computer network?",
+             "The Binary System",
+             "Binary is <span class=\"bold\">a base 2 number system that computers use to represent numbers and values<\/span>. The numbers used are \u201C1\u201D and \u201C0\u201D, that are represented by a high signal and a low signal. A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often \"0\" and \"1\" from the binary number system. The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. For example, a binary string of eight bits (which is also called a byte) can represent any of 256 possible values and can, therefore, represent a wide variety of different items. In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. Those methods may use fixed-width or variable-width strings. In a fixed-width binary code, each letter, digit, or other character is represented by a bit string of the same length; that bit string, interpreted as a binary number, is usually displayed in code tables in octal, decimal or hexadecimal notation. There are many character sets and many character encodings for them. A bit string, interpreted as a binary number, can be translated into a decimal number. For example the lowercase a, if represented by the bit string 01100001 (as it is in the standard ASCII code), can also be represented as the decimal number 97.",
+             "images/1_mzBM4oXXxGH5ZdYMXUQQHQ.jpg",
+             "Sources: <a href=\"https:\/\/en.wikipedia.org\/wiki\/Binary_code\">https:\/\/en.wikipedia.org\/wiki\/Binary_code<\/a>"
+             ],
+             [
+             "What is a computer network?",
+             "Bits, Bytes, Kilobytes and Megabytes",
+             "A unit of information is <span class=\"bold\">any unit of measure of digital data size<\/span>. In digital computing, a unit of information is used to describe the capacity of a digital data storage device. In telecommunications, a unit of information is used to describe the throughput of a communication channel. In information theory, a unit of information is used to measure information contained in messages and the entropy of random variables. Due to the need to work with data sizes that range from very small to very large, units of information cover a wide range of data sizes. Units are defined as multiples of a smaller unit except for the smallest unit which is based on convention and hardware design. Multiplier prefixes are used to describe relatively large sizes. For binary hardware, by far the most common hardware today, the smallest unit is the bit, a portmanteau of binary digit,[1] which represents a value that is one of two possible values; typically shown as 0 and 1. The nybble, 4 bits, represents the value of a single hexadecimal digit. The byte, 8 bits, 2 nybbles, is possibly the most commonly known and used base unit to describe data size. The word is a size that varies by and has a special importance for a particular hardware context. On modern hardware, a word is typically 2, 4 or 8 bytes, but the size varies dramatically on older hardware. Larger sizes can be expressed as multiples of a base unit via SI metric prefixes (powers of ten) or the newer and generally more accurate IEC binary prefixes (powers of two). A byte is a unit of information in many computers that holds a value. Each byte is made of 8 bits, and 4 bits is a nybble. Bytes are used to describe how big a piece of media is, such as text, audio, video etc. Things on the internet can vary in size massively, so we add a prefix to the unit, for example, instead of 1000 bytes, it would be 1 kilobyte. Larger sizes of information will have a metric prefix (powers of ten) or the newer more accurate IEC binary prefixes (powers of two). IEC binary prefixes are more accurate because instead of rounding to 1000, it keeps it at 1024. That is why in a windows computer a disk will show up less than its specifications because the disk capacity is measured with metric binary while windows measures it with IEC binary which is why for example, a 2TB (2 terabytes) drive shows up in windows at 1.81TB.",
+             "images/599_bit.png",
+             "Sources: <a href=\"https:\/\/en.wikipedia.org\/wiki\/Units_of_information\">https:\/\/en.wikipedia.org\/wiki\/Units_of_information<\/a>"
+             ],
+             [
+             "What is a computer network?",
+             "Internet of Me/Internet of Things",
+             "wouldn't it be funny if i forgot to write this haha",
+             "images/fk0pwh5n5n991.webp",
+             "sources: myself :D"
+             ],
+             [
+             "What is a social network?",
+             "Entities in a Social Network",
+             "Social networks represent <span class=\"bold\">relationships involving social entities such as friendships among individuals, communication in a group, or transactions between corporations<\/span>. Finding important actors, discovering cohesive groups or communities, or identifying actors that are similar in some way are all examples of analysis that can be done for social networks. Social networks are accessible from a variety of sources, including directly from social media (Facebook, Twitter, etc.). High-level functions make it easy to detect communities, find cohesive groups, and visualize the results. A full suite of social network measures makes it possible to explore networks, rank actors from their centralities, or provide recommendations based on similar actors.",
+             "images/Social-network-vector-illustration.jpeg",
+             "Sources: <a href=\"https:\/\/reference.wolfram.com\/language\/guide\/SocialNetworks.html.en\">https:\/\/reference.wolfram.com\/language\/guide\/SocialNetworks.html.en<\/a>"
+             ],
+             [
+             "What is a social network?",
+             "Relationships in a Social Network",
+             "A relationship concerning two members of a social network are called <span class=\"bold\">web-based social networks (WBSN)<\/span>. In WBSNs, besides personal\/work relationships (e.g., friend\/colleague), also trust relationships may be supported which denote how much a member trusts another. In the graph representation of a social network, relationships are usually denoted by edges, labeled with a relationship type and\/or a relationship trust level.",
+             "images/Alternative-Social-Media-Platform-Blog-Resized.jpg",
+             "Sources: <a href=\"https:\/\/www.igi-global.com\/dictionary\/security-privacy-social-networks\/36731\">https:\/\/www.igi-global.com\/dictionary\/security-privacy-social-networks\/36731<\/a>"
+             ],
+             [
+             "What is a social network?",
+             "Events in a Social Network",
+             "wouldn't it be funny if i forgot to write this haha",
+             "images/fk0pwh5n5n991.webp",
+             "sources: myself :D"
+             ],
+             [
+             "What is a social network?",
+             "Sociograms",
+             ""
+             ],
+        ];
+        load(rows);
+   </script>
+</body>
+</html>

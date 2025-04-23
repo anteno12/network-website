@@ -1,19 +1,21 @@
-.nav1  {
-    border:solid;
-    border-color:navy;
-    background-color:navy;
-    text-align:center;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+
+.nav-cell {
+   background-color:rgb(46, 66, 52);
+   color:white;
+   text-decoration:none;
+   border:solid;
+   text-align:center;
 }
 
-a {
-    background-color:navy;
-    color:white;
-    text-decoration:none;
-    padding:10px;
+body {
+    background-color: #576356;
 }
 
 a:hover {
-    background-color:lightblue;
+   background-color:rgb(9, 232, 76);
 }
 
 .header {
@@ -52,6 +54,25 @@ a:hover {
     color: white;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+
+}
+
+.sources {
+    text-align: center;
+    margin: 30px;
+    font-family: dm sans;
+    color: white;
+}
+
 hr {
     border: 2px solid #2b4f27;
 }
@@ -68,6 +89,7 @@ a {
    font-family: ubuntu;
 }
 
+
 .nav2 {
    display:block;
    width:100px;
@@ -77,6 +99,8 @@ a {
    background-color:rgb(46,66,52);
 }
 
+
 .button-styles {
    align:center;
 }
+
