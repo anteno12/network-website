@@ -4,30 +4,53 @@
    <meta charset="UTF-8">
    <title>Network Hardware</title>
    <link rel="stylesheet" href="styles.css">
+   <script src="scripts/glossary.js"></script>
 </head>
 <body>
    <nav class="nav-cell">
        <h3>
-           <a href="index.html">Home</a><a href="computer_networks.html">Computer Networks</a><a href="social_networks.html">Social Networks</a><a href="transmission_media.html">Transmission Media</a><a href="technologies_and_navmaps.html">Topologies and Navigation Maps</a><a href="data_processing_transmission.html">Data Processing and Transmission</a><a href="network_security.html">Network Security</a><a href="social_networking_case_study.html">Social Networking Case Study</a>
+           <a href="index.html">Home</a><a href="network_hardware.html">Network Hardware</a><a href="computer_and_social_networks.html">Computer and Social Networks</a><a href="transmission_media.html">Transmission Media</a><a href="technologies_and_navmaps.html">Topologies and Navigation Maps</a><a href="data_processing_transmission.html">Data Processing and Transmission</a><a href="network_security.html">Network Security</a><a href="social_networking_case_study.html">Social Networking Case Study</a>
        </h3>
    </nav>
    <div class="headerbox">
-       <h1 class="header"><span>HEADING</span></h1>
+       <h1 class="header"><span>NETWORK HARDWARE</span></h1>
+   </div>
+   <hr>
+   <div id="content">
+
    </div>
 
-   <div class="infobox1">
-       <h2 class="subheading">Subheading</h2>
-       <hr>
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-       <hr>
-   </div>
+   <script>
+    // Each row is:
+    //    [
+    //    header,
+    //    term,
+    //    definition,
+    //    image source,
+    //    sources
+    //    ]
+    const rows = [
+         [
+            "What are examples of network hardware?",
+            "Nodes",
+            "In networking, a node is <span class=\"bold\">any device or mount that can receive or distribute data through network connections<\/span>. This includes your phone, modem or Wireless Access Points (WAPs). Nodes are divided into two groups; intermediary points and endpoints. Intermediaries are devices such as routers and cell towers, as these can distribute data to multiple IP addresses. Endpoints are the data recievers or senders, devices including your phone and laptop take these data and process them for the user or send them off elsewhere. Nodes are essential in establishing data flow in a network, as these are the devices where data can be recieved, converted and transmitted across the network.",
+            "images/NodeDevices.png",
+            "Sources: <a href=\"https:\/\/en.wikipedia.org\/wiki\/Node\">https://en.wikipedia.org/wiki/Node<\/a>"
+         ],
+         [
+            "What are examples of network hardware?",
+            "Hubs",
+            "Hubs are intermediary devices connecting itself and endpoints to a LAN connection. Its purpose is to forward data it recieves to all connected recievers, regardless of the intended target address. It has been mostly overshadowed by the more popular switch in modern networks due to their efficiency.",
+            "images/Hub_diagram.jpg",
+            "Sources: <a href=\"https:\/\/www.techtarget.com\/searchnetworking\/definition\/hub\">https://www.techtarget.com/searchnetworking/definition/hub<\/a>"
+         ],
+         [
+            "What are examples of network hardware?",
+            "Routers",
+            "Routers are intermediary devices that are supposed to follow two main purposes. The first is to manage traffic in a network by routing data packets to their intended target addresses. Routers are intended to help keep networks running at maximum efficiency by sending information to their target IP addresses, like an air traffic controller making sure all planes land safely at their destinations. Their second purpose is being able to connect multiple devices to the same network, with a wired or wireless connection."
+         ],
+    ];
+    load(rows);
+</script>
 </body>
 </html>
