@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=DM Sans');
 
 .nav-cell {
-   background-color:rgb(46, 66, 52);
-   color:white;
    text-decoration:none;
    border:solid;
    text-align:center;
@@ -12,10 +10,7 @@
 
 body {
     background-color: #576356;
-}
-
-a:hover {
-   background-color:rgb(9, 232, 76);
+    line-height: 1.5;
 }
 
 .header {
@@ -71,23 +66,28 @@ a:hover {
     margin: 30px;
     font-family: dm sans;
     color: white;
+    line-height: 3;
 }
 
 hr {
     border: 2px solid #2b4f27;
 }
 
-a {
-   text-decoration:none;
-   color:white;
-   padding:17px;
-   padding-top:10px;
-   padding-bottom:10px;
-   background-color:rgb(46, 66, 52);
-   width:50%;
-   margin-left:2px;
-   font-family: ubuntu;
-}
+button {
+    text-decoration:none;
+    color:white;
+    padding:17px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(46, 66, 52);
+    width:10%;
+    height:70px;
+    margin-left:2px;
+    font-family: ubuntu;
+    vertical-align: middle;
+    cursor: pointer;
+    border:solid 1px green;
+ }
 
 
 .nav2 {
@@ -99,3 +99,7 @@ a {
    background-color:rgb(46,66,52);
 }
 
+button:hover {
+    background-color: green;
+    border-color: darkgreen;
+}
