@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <title>Home</title>
    <link rel="stylesheet" href="styles.css">
+   <script src="scripts/glossary.js"></script>
 </head>
 <body>
    <nav class="nav-cell">
@@ -12,22 +13,45 @@
        </h3>
    </nav>
    <div class="headerbox">
-       <h1 class="header"><span>HEADING</span></h1>
+       <h1 class="header"><span>NETWORK SECURITY</span></h1>
    </div>
 
-   <div class="infobox1">
-       <h2 class="subheading">Subheading</h2>
-       <hr>
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-       <hr>
+   <div id="content">
+       
    </div>
+   <script>
+    // Each row is:
+    //    [
+    //    header,
+    //    term,
+    //    definition,
+    //    image source,
+    //    sources
+    //    ]
+    const rows = [
+         [
+            "What are examples of computer viruses?",
+            "Types of Malware",
+            "There are 6 distinct types of malware, being Viruses, Worms, Trojan Horses, Rootkits, Ransomware and Keyloggers. Viruses <span class=\"bold\">insert their code in weak points of a computer system in order to duplicate itself, then it carries out the tasks it was given<\/span>, ranging from encrypting files to taking control of a whole system. Worms are <span class=\"bold\">similar to viruses, but are fully autonomous<\/span> and don't require the victim to click on any links or files. Trojan Horses <span class=\"bold\">disguise themselves as a legitimate program, then stealthily hide themselves within the supposed app to expose you to cyberattacks<\/span>. Rootkits allow the cybercriminals to <span class=\"bold\">remotely control your computer<\/span> through a program that hides itself deep in your files. Ransomware <span class=\"bold\">encrypts your files, preventing the victim from accessing them until they pay a ransom in crypto<\/span>. Keyloggers <span class=\"bold\">track your inputs, allowing cybercriminals to see the sensitive info you type in<\/span>.",
+            "images/Malware_depiction.webp",
+            "Sources: <a href=\"https:\/\/www.sentinelone.com\/cybersecurity-101\/cybersecurity\/types-of-malware\/?gad_source=1&gad_campaignid=22431903738&gbraid=0AAAAABuXKtfvh3iyWTcwWJJhMJDvEzK-Z&gclid=CjwKCAjwwqfABhBcEiwAZJjC3usl8qbkLg05sCdCsKgsDj6IVxSNft5fDEfu0ZtZygbQIsWRXOS21xoCWk0QAvD_BwE\">https://www.sentinelone.com/cybersecurity-101/cybersecurity/types-of-malware/<\/a>"
+         ],
+         [
+            "What is Social Engineering?",
+            "Social Engineering",
+            "Social Engineering is <span class=\"bold\">a tactic used by hackers, scammers and the like to coerce victims into making security mistakes<\/span>. These attacks can take many forms, but mostly involve the perpetrator either sending false alarms or pretending to be a trustworthy entity, in order to scare or gain the trust of the victim, only for them to reveal critical information, compromising their safety.",
+            "images/SocialEngineering_depiction.jpg",
+            "Sources: <a href=\"https:\/\/www.cmu.edu\/iso\/aware\/dont-take-the-bait\/social-engineering.html\">https://www.cmu.edu/iso/aware/dont-take-the-bait/social-engineering.html<\/a>"
+         ],
+         [
+            "What are strategies to prevent cybercrimes?",
+            "Protecting Yourself from Cybercrimes",
+            "There are many ways to protect yourself from hackers and scammers, with the main ones being Firewalls, VPNs, Encryption and 2-Factor Authentication. Firewalls sit between your private network and an untrusted network, oftentimes this is the Internet, and scan the data packets trying to pass through. Based on a set of rules, <span class=\"bold\">the firewall can decide whether to accept or deny the data from accessing your network<\/span>. VPNs allow you to <span class=\"bold\">connect to a private network that isn't your own, hiding your activity and IP address from hackers<\/span>. Encryption involves <span class=\"bold\">using a cipher and key to convert plaintext into unreadable ciphertext, and only people with the key can reverse the process<\/span>. 2-Factor Authentication <span class=\"bold\">requires the user to enter a secret code sent via SMS or email along with their password<\/span> in order to log in.",
+            "images/ProtectionFromCybercrime_depiction.webp",
+            "Sources: <a href=\"https:\/\/www.cloudflare.com\/learning\/security\/what-is-a-firewall\/\">https://www.cloudflare.com/learning/security/what-is-a-firewall/<\/a> <a href=\"https:\/\/azure.microsoft.com\/en-au\/resources\/cloud-computing-dictionary\/what-is-vpn\">https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-vpn<\/a> <a href=\"https:\/\/au.norton.com\/blog\/privacy\/what-is-encryption\">https://au.norton.com/blog/privacy/what-is-encryption<\/a> <a href=\"https:\/\/www.microsoft.com\/en-us\/security\/business\/security-101\/what-is-two-factor-authentication-2fa\">https://www.microsoft.com/en-us/security/business/security-101/what-is-two-factor-authentication-2fa<\/a> "
+         ],
+    ];
+    load(rows);
+</script>
 </body>
 </html>
