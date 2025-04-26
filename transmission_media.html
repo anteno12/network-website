@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <title>Transmission Media</title>
    <link rel="stylesheet" href="styles.css">
+   <script src="scripts/glossary.js"></script>
 </head>
 <body>
    <nav class="nav-cell">
@@ -12,22 +13,51 @@
         </h3>
    </nav>
    <div class="headerbox">
-       <h1 class="header"><span>HEADING</span></h1>
+       <h1 class="header"><span>Transmission Media</span></h1>
    </div>
-
-   <div class="infobox1">
-       <h2 class="subheading">Subheading</h2>
-       <hr>
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-       <hr>
+   <div id="content">
+       
    </div>
+   <script class="">
+    // Each row is:
+    //    [
+    //    header,
+    //    term,
+    //    definition,
+    //    image source,
+    //    sources
+    //    ]
+    const rows = [
+         [
+            "What is an Unshieled Twisted Pair Cable?",
+            "What is an Unshieled Twisted Pair Cable?",
+            "Unshielded twisted pair (UTP) is a ubiquitous type of copper cabling used in telephone wiring and local area networks (LANs). The five types of UTP cables are identified with the prefix CAT, as in category, each supporting a different amount of bandwidth. Alternatives to UTP cable include coaxial cable and fiber optic cable. Each type of cabling has benefits and tradeoffs, but broadly speaking, most enterprises favor UTP cable due to its low cost and ease of installation. How UTP cables work: Twisted pair design Inside a UTP cable is up to four twisted pairs of copper wires enclosed in a protective plastic cover, with the greater number of pairs corresponding to more bandwidth. The two individual wires in a single pair are twisted around each other, and then the pairs are twisted around each other, as well. This is done to reduce crosstalk and electromagnetic interference, each of which can degrade network performance. Each signal on a twisted pair requires both wires. Twisted pairs are color-coded to make it easy to identify each pair. In North America, one wire in a pair is identified by one of five colors: blue, orange, green, brown or slate (grey). This wire is paired with a wire from a different color group: white, red, black, yellow or violet. Typically, one wire in a pair is solid-colored, and the second is striped with the color of its mate -- e.g., a solid blue wire would be paired with a white-and-blue striped wire -- so they can be easily identified and matched.",
+            "images/utp-diagram.png",
+            "Sources: <a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/Unshielded-Twisted-Pair\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/Unshielded-Twisted-Pair <a>"
+         ],
+         [
+            "Copper Wire",
+            "Copper Wire",
+            "Copper wires are commonly used in Ethernet cables to transmit data, with different types like Cat5e, Cat6, and Cat6a offering varying speeds and capabilities. They work by sending electrical currents through the copper wires from one device to another. While copper cables are still widely used, fiber optic cables are increasingly preferred for applications requiring very high data speeds. The differences between copper and fiber optic cables are that fiber optic is much faster and offers a higher bandwidth than copper cables can, but that comes at a cost of $5 per metre while copper cables come in at only $1 per metre. Copper cables also has its pros, such as that it is cheaper by a landslide and is easier to work with as consumers can make their own UTP cables at home. Copper cables are still the most common as they are cheap and available, making them a good choice for consumers.",
+            "images/copper-wire.png",
+            "Sources: <a class=\"a\" href=\"https://www.cbtnuggets.com/blog/technology/networking/fiber-vs-copper-cable\" target=\"_blank\">https://www.cbtnuggets.com/blog/technology/networking/fiber-vs-copper-cable<\/a>"
+         ],
+         [
+            "Coaxial Cables",
+            "Coaxial Cables",
+            "Coaxial cable, often shortened to \"coax,\" is a type of electrical cable used to transmit high-frequency signals, including those for video and audio. It's known for its ability to deliver signals with minimal interference and over long distances, making it a common choice for cable TV and other applications. Its construction consists of a central conductor, an insulating layer, a metal shield and the final insulating layer on the outside of the cable. The metal shield on the inside is to protect against electromagnetic interference. This cable is mainly used for TV, radios and some forms of communications. Some advantages of the coaxial cable are that there is minimal signal loss over long distances, interference protection and versatility.",
+            "images/coaxial-cable-diagram.jpg",
+            "Sources: <a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/coaxial-cable-illustrated\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/coaxial-cable-illustrated</a><a class=\"a\" href=\"https://www.lenovo.com/us/en/glossary/coaxial-cable/\" target=\"_blank\">https://www.lenovo.com/us/en/glossary/coaxial-cable            </a><a class=\"a\" href=\"https://www.meridiancableassemblies.com/types-of-coaxial-cables/\" target=\"_blank\">https://www.meridiancableassemblies.com/types-of-coaxial-cables</a>",
+         ],
+         [
+            "Fiber Optic Cables",
+            "Fiber Optic Cables",
+            "Optical fiber is a technology that transmits information using light pulses through thin strands of glass or plastic. These fibers are used in various applications, including telecommunications, data networking, and even some industrial applications. The primary benefit of optical fiber is its ability to transmit data over long distances with high bandwidth and minimal signal loss compared to traditional copper wires. An optical fiber typically consists of a core, cladding, and a protective coating. The core is the innermost part, usually made of glass, through which light travels. The cladding, also made of glass or plastic, surrounds the core and helps to keep the light signal confined within the fiber. A protective coating, like a buffer tube and an outer jacket, shields the fiber from environmental damage. Optical fibers transmit data by using light pulses that travel through the core of the fiber. These light pulses are generated by a transmitter, which converts electrical signals into light. The cladding, which has a slightly lower refractive index than the core, helps to reflect the light back into the core, preventing it from escaping.",
+            "images/fiber-optic-cable.jpeg",
+            "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/Optical_fiber\" target=\"_blank\">https://en.wikipedia.org/wiki/Optical_fiber</a><a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/fiber-optics-optical-fiber\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/optical-fiber</a><a class=\"a\" href=\"https://au.rs-online.com/web/content/discovery/ideas-and-advice/fibre-optic-cables-guide\" target=\"_blank\">https://au.rs-online.com/web/content/discovery/ideas-and-advice/fibre-optic-cables-guide</a>",
+         ]
+    ];
+    load(rows);
+</script>
 </body>
 </html>
