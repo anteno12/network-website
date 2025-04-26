@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Bebas Neue');
 @import url('https://fonts.googleapis.com/css?family=DM Sans');
+@import url('');
 
 .nav-cell {
    text-decoration:none;
-   border:solid;
+   border:solid #223b1f;
    text-align:center;
 }
 
@@ -23,7 +24,7 @@ body {
 
 
 .headerbox {
-   background: darkgreen;
+   background-image:url(images/header-backdrop.png);
    border: 3px solid #223b1f;
 }
 
@@ -44,9 +45,10 @@ body {
 }
 
 .text {
-    margin: 30px;
+    margin: auto;
     font-family: dm sans;
     color: white;
+    width: 1000px;
 }
 
 .bold {
@@ -73,7 +75,7 @@ hr {
     border: 2px solid #2b4f27;
 }
 
-button {
+.a, button {
     text-decoration:none;
     color:white;
     padding:17px;
@@ -99,7 +101,7 @@ button {
    background-color:rgb(46,66,52);
 }
 
-button:hover {
+a:hover, button:hover {
     background-color: green;
     border-color: darkgreen;
 }
