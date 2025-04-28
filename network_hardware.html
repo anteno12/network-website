@@ -5,13 +5,14 @@
    <title>Network Hardware</title>
    <link rel="stylesheet" href="styles.css">
    <script src="scripts/glossary.js"></script>
+   <link rel="icon" type="image/x-icon" href="images/light-bulb-logo.png">
 </head>
 <body>
-   <nav class="nav-cell">
-    <h3>
-        <a href=index.html><button>Home</button></a><a href="network_hardware.html"><button>Network Hardware</button></a><a href="computer_and_social_networks.html"><button>Computer and Social Networks</button></a><a href="transmission_media.html"><button>Transmission Media</button></a><a href="technologies_and_navmaps.html"><button>Topologies and Navigation Maps</button></a><a href="data_processing_transmission.html"><button>Data Processing and Transmission</button></a><a href="network_security.html"><button>Network Security</button></a><a href="social_networking_case_study.html"><button>Social Networking Case Study</button></a>
-    </h3>
-   </nav>
+    <nav class="nav-cell">
+        <h3>
+           <a href=index.html><button class="nav-button">Home</button></a><a href="computer_and_social_networks.html"><button class="nav-button">Computer and Social Networks</button></a><a href="network_hardware.html"><button class="nav-button">Network Hardware</button></a><a href="transmission_media.html"><button class="nav-button">Transmission Media</button></a><a href="technologies_and_navmaps.html"><button class="nav-button">Topologies and Navigation Maps</button></a><a href="data_processing_transmission.html"><button class="nav-button">Data Processing and Transmission</button></a><a href="network_security.html"><button class="nav-button">Network Security</button></a><a href="social_networking_case_study.html"><button class="nav-button">Social Networking Case Study</button></a>
+        </h3>
+     </nav>
    <div class="headerbox">
        <h1 class="header"><span>NETWORK HARDWARE</span></h1>
    </div>
@@ -32,42 +33,42 @@
     const rows = [
          [
             "What are examples of network hardware?",
-            "Nodes",
+            "<h3 id=\"nodes\">Nodes</h3>",
             "In networking, a node is <span class=\"bold\">any device or mount that can receive or distribute data through network connections<\/span>. This includes your phone, modem or Wireless Access Points (WAPs). Nodes are divided into two groups; intermediary points and endpoints. Intermediaries are devices such as routers and cell towers, as these can distribute data to multiple IP addresses. Endpoints are the data recievers or senders, devices including your phone and laptop take these data and process them for the user or send them off elsewhere. Nodes are essential in establishing data flow in a network, as these are the devices where data can be recieved, converted and transmitted across the network.",
             "images/NodeDevices.png",
             "Sources: <a class=\"a\" href=\"https:\/\/en.wikipedia.org\/wiki\/Node\" target=\"_blank\">https://en.wikipedia.org/wiki/Node<\/a>"
          ],
          [
-            "What are examples of network hardware?",
-            "Hubs",
+            "",
+            "<h3 id=\"hubs\">Hubs</h3>",
             "Hubs are intermediary devices connecting itself and endpoints to a LAN connection. Its purpose is <span class=\"bold\">to forward data it recieves to all connected recievers, regardless of the intended target address<\/span>. It has been mostly overshadowed by the more popular switch in modern networks due to their efficiency.",
             "images/Hub_diagram.jpg",
             "Sources: <a class=\"a\" href=\"https:\/\/www.techtarget.com\/searchnetworking\/definition\/hub\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/hub<\/a>"
          ],
          [
-            "What are examples of network hardware?",
-            "Routers",
+            "",
+            "<h3 id=\"routers\">Routers</h3>",
             "Routers are intermediary devices that are supposed to follow two main purposes. The first is <span class=\"bold\">to manage traffic in a network by routing data packets to their intended target addresses<\/span>. Routers are intended to help keep networks running at maximum efficiency by sending information to their target IP addresses, like an air traffic controller making sure all planes land safely at their destinations. Their second purpose is <span class=\"bold\">being able to connect multiple devices to the same network<\/span>, with a wired or wireless connection.",
             "images/Router_diagram.jpg",
             "Sources: <a class=\"a\" href=\"https:\/\/www.cloudflare.com\/en-gb\/learning\/network-layer\/what-is-a-router\/\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/hub<\/a>"
         ],
         [
-            "What are examples of network hardware?",
-            "Switches",
+            "",
+            "<h3 id=\"switches\">Switches</h3>",
             "Switches are intermediary devices that act as <span class=\"bold\">a central point in networks, forwarding data packets from one devices to another<\/span>. This function is similar to routers, but the main difference is that switches can't connect to other networks as opposed to a router being able to communicate with devices in different networks.",
             "images/Switch_diagram.webp",
             "Sources: <a class=\"a\" href=\"https:\/\/www.cloudflare.com\/learning\/network-layer\/what-is-a-network-switch\/\" target=\"_blank\">https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/<\/a>"
         ],
         [
-            "What are examples of network hardware?",
-            "Wireless Access Points (WAPs)",
+            "",
+            "<h3 id=\"wap\">Wireless Access Points (WAPs)</h3>",
             "WAPs are intermediary devices <span class=\"bold\">used to connect devices to a network through a wireless connection<\/span>. Any device within its connection range can establish communication with other devices on the network. WAPs are a lot easier to use compared to similar devices since they don't require wired connections and are simple to set up.",
             "images/WAP_diagram.webp",
             "Sources: <a class=\"a\" href=\"https:\/\/www.cisco.com\/site\/us\/en\/learn\/topics\/small-business\/what-is-an-access-point.html\" target=\"_blank\">https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-an-access-point.html<\/a>"
         ],
         [
-            "What are examples of network hardware?",
-            "Servers",
+            "",
+            "<h3 id=\"servers\">Servers</h3>",
             "Servers are endpoint systems that <span class=\"bold\">provide services, data and resources to other devices, called clients, in a network<\/span>. In theory, any computer that shares data with another is immediately considered a server. This means that if two computers share resources with each other, they are both servers and clients at the same time.",
             "images/Server_diagram.jpg",
             "Sources: <a class=\"a\" href=\"https:\/\/www.paessler.com\/it-explained\/server\" target=\"_blank\">https://www.paessler.com/it-explained/server<\/a>"
