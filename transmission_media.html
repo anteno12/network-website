@@ -5,12 +5,90 @@
    <title>Transmission Media</title>
    <link rel="stylesheet" href="styles.css">
    <script src="scripts/glossary.js"></script>
+   <link rel="icon" type="image/x-icon" href="images/light-bulb-logo.png">
 </head>
 <body>
    <nav class="nav-cell">
-        <h3>
-            <a href=index.html><button>Home</button></a><a href="network_hardware.html"><button>Network Hardware</button></a><a href="computer_and_social_networks.html"><button>Computer and Social Networks</button></a><a href="transmission_media.html"><button>Transmission Media</button></a><a href="technologies_and_navmaps.html"><button>Topologies and Navigation Maps</button></a><a href="data_processing_transmission.html"><button>Data Processing and Transmission</button></a><a href="network_security.html"><button>Network Security</button></a><a href="social_networking_case_study.html"><button>Social Networking Case Study</button></a>
-        </h3>
+      <div class="dropdown">
+         <a class="drop-a" href="index.html"><button class="dropbtn">Home</button></a>
+         <div class="dropdown-content">
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="computer_and_social_networks.html"><button class="dropbtn">Computer and Social Networks</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="computer_and_social_networks.html#ARPANET">ARPANET</a>
+           <a class="drop-a" href="computer_and_social_networks.html#bandwidth">Bandwidth</a>
+           <a class="drop-a" href="computer_and_social_networks.html#binary">The Binary System</a>
+           <a class="drop-a" href="computer_and_social_networks.html#bytes">Bits, Bytes, Kilobytes and Megabytes</a>
+           <a class="drop-a" href="computer_and_social_networks.html#iot">Internet of Me/Internet of Things</a>
+           <a class="drop-a" href="computer_and_social_networks.html#entites-in-social-network">Entities in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#relationships-in-social-network">Relationships in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#events-in-social-network">Events in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#sociograms">Sociograms</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="network_hardware.html"><button class="dropbtn">Network Hardware</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="network_hardware.html#nodes">Nodes</a>
+           <a class="drop-a" href="network_hardware.html#hubs">Hubs</a>
+           <a class="drop-a" href="network_hardware.html#routers">Routers</a>
+           <a class="drop-a" href="network_hardware.html#switches">Switches</a>
+           <a class="drop-a" href="network_hardware.html#wap">Wireless Access Points</a>
+           <a class="drop-a" href="network_hardware.html#servers">Servers</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a"><button class="dropbtn">Transmission Media</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="transmission_media.html#utp">UTP Cables</a>
+           <a class="drop-a" href="transmission_media.html#copper">Copper Wire</a>
+           <a class="drop-a" href="transmission_media.html#coax">Coaxial Cables</a>
+           <a class="drop-a" href="transmission_media.html#fiber">Fiber Optic Cables</a>
+           <a class="drop-a" href="transmission_media.html#wifi">Wi-Fi</a>
+           <a class="drop-a" href="transmission_media.html#cellular">Cellular Network</a>
+           <a class="drop-a" href="transmission_media.html#satellite">Satellite</a>
+           <a class="drop-a" href="transmission_media.html#bluetooth">Bluetooth</a>
+           <a class="drop-a" href="transmission_media.html#zigface">Zigbee, Z-Wave and Matter</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="topologies-and-navigation-maps.html"><button class="dropbtn">Topologies and Navigation Maps</button></a>
+         <div class="dropdown-content">
+            <a class="drop-a" href="topologies-and-navigation-maps.html#"></a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#"></a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#"></a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#"></a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#"></a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="data_processing_transmission.html"><button class="dropbtn">Data Processing and Transmission</button></a>
+         <div class="dropdown-content">
+            <a class="drop-a" href="data_processing_transmission.html"></a>
+            <a class="drop-a" href="data_processing_transmission.html"></a>
+            <a class="drop-a" href="data_processing_transmission.html"></a>
+            <a class="drop-a" href="data_processing_transmission.html"></a>
+            <a class="drop-a" href="data_processing_transmission.html"></a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="network_security.html"><button class="dropbtn">Network Security</button></a>
+         <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" href="social_networking_case_study.html"><button class="dropbtn">Social Network Case Study</button></a>
+         <div class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+         </div>
+       </div>
    </nav>
    <div class="headerbox">
        <h1 class="header"><span>Transmission Media</span></h1>
@@ -21,7 +99,7 @@
    <script class="">
     // Each row is:
     //    [
-    //    header,
+    //    subheading,
     //    term,
     //    definition,
     //    image source,
@@ -29,34 +107,69 @@
     //    ]
     const rows = [
          [
-            "What is an Unshieled Twisted Pair Cable?",
-            "What is an Unshieled Twisted Pair Cable?",
+            "Wired Transmission",
+            "<h3 id=\"utp\">What is an Unshieled Twisted Pair Cable?</h3>",
             "Unshielded twisted pair (UTP) is a ubiquitous type of copper cabling used in telephone wiring and local area networks (LANs). The five types of UTP cables are identified with the prefix CAT, as in category, each supporting a different amount of bandwidth. Alternatives to UTP cable include coaxial cable and fiber optic cable. Each type of cabling has benefits and tradeoffs, but broadly speaking, most enterprises favor UTP cable due to its low cost and ease of installation. How UTP cables work: Twisted pair design Inside a UTP cable is up to four twisted pairs of copper wires enclosed in a protective plastic cover, with the greater number of pairs corresponding to more bandwidth. The two individual wires in a single pair are twisted around each other, and then the pairs are twisted around each other, as well. This is done to reduce crosstalk and electromagnetic interference, each of which can degrade network performance. Each signal on a twisted pair requires both wires. Twisted pairs are color-coded to make it easy to identify each pair. In North America, one wire in a pair is identified by one of five colors: blue, orange, green, brown or slate (grey). This wire is paired with a wire from a different color group: white, red, black, yellow or violet. Typically, one wire in a pair is solid-colored, and the second is striped with the color of its mate -- e.g., a solid blue wire would be paired with a white-and-blue striped wire -- so they can be easily identified and matched.",
             "images/utp-diagram.png",
             "Sources: <a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/Unshielded-Twisted-Pair\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/Unshielded-Twisted-Pair <a>"
          ],
          [
-            "Copper Wire",
-            "Copper Wire",
+            "",
+            "<h3 id=\"copper\">Copper Wire</h3>",
             "Copper wires are commonly used in Ethernet cables to transmit data, with different types like Cat5e, Cat6, and Cat6a offering varying speeds and capabilities. They work by sending electrical currents through the copper wires from one device to another. While copper cables are still widely used, fiber optic cables are increasingly preferred for applications requiring very high data speeds. The differences between copper and fiber optic cables are that fiber optic is much faster and offers a higher bandwidth than copper cables can, but that comes at a cost of $5 per metre while copper cables come in at only $1 per metre. Copper cables also has its pros, such as that it is cheaper by a landslide and is easier to work with as consumers can make their own UTP cables at home. Copper cables are still the most common as they are cheap and available, making them a good choice for consumers.",
-            "images/copper-wire.png",
+            "images/copper-wire2.jpg",
             "Sources: <a class=\"a\" href=\"https://www.cbtnuggets.com/blog/technology/networking/fiber-vs-copper-cable\" target=\"_blank\">https://www.cbtnuggets.com/blog/technology/networking/fiber-vs-copper-cable<\/a>"
          ],
          [
-            "Coaxial Cables",
-            "Coaxial Cables",
+            "",
+            "<h3 id=\"coax\">Coaxial Cables</h3>",
             "Coaxial cable, often shortened to \"coax,\" is a type of electrical cable used to transmit high-frequency signals, including those for video and audio. It's known for its ability to deliver signals with minimal interference and over long distances, making it a common choice for cable TV and other applications. Its construction consists of a central conductor, an insulating layer, a metal shield and the final insulating layer on the outside of the cable. The metal shield on the inside is to protect against electromagnetic interference. This cable is mainly used for TV, radios and some forms of communications. Some advantages of the coaxial cable are that there is minimal signal loss over long distances, interference protection and versatility.",
             "images/coaxial-cable-diagram.jpg",
             "Sources: <a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/coaxial-cable-illustrated\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/coaxial-cable-illustrated</a><a class=\"a\" href=\"https://www.lenovo.com/us/en/glossary/coaxial-cable/\" target=\"_blank\">https://www.lenovo.com/us/en/glossary/coaxial-cable            </a><a class=\"a\" href=\"https://www.meridiancableassemblies.com/types-of-coaxial-cables/\" target=\"_blank\">https://www.meridiancableassemblies.com/types-of-coaxial-cables</a>",
          ],
          [
-            "Fiber Optic Cables",
-            "Fiber Optic Cables",
+            "",
+            "<h3 id=\"fiber\">Fiber Optic Cables</h3>",
             "Optical fiber is a technology that transmits information using light pulses through thin strands of glass or plastic. These fibers are used in various applications, including telecommunications, data networking, and even some industrial applications. The primary benefit of optical fiber is its ability to transmit data over long distances with high bandwidth and minimal signal loss compared to traditional copper wires. An optical fiber typically consists of a core, cladding, and a protective coating. The core is the innermost part, usually made of glass, through which light travels. The cladding, also made of glass or plastic, surrounds the core and helps to keep the light signal confined within the fiber. A protective coating, like a buffer tube and an outer jacket, shields the fiber from environmental damage. Optical fibers transmit data by using light pulses that travel through the core of the fiber. These light pulses are generated by a transmitter, which converts electrical signals into light. The cladding, which has a slightly lower refractive index than the core, helps to reflect the light back into the core, preventing it from escaping.",
             "images/fiber-optic-cable.jpeg",
             "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/Optical_fiber\" target=\"_blank\">https://en.wikipedia.org/wiki/Optical_fiber</a><a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/fiber-optics-optical-fiber\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/optical-fiber</a><a class=\"a\" href=\"https://au.rs-online.com/web/content/discovery/ideas-and-advice/fibre-optic-cables-guide\" target=\"_blank\">https://au.rs-online.com/web/content/discovery/ideas-and-advice/fibre-optic-cables-guide</a>",
-         ]
-    ];
+         ],
+         [
+            "Wireless Transmission",
+            "<h3 id=\"wifi\">Wi-Fi</h3>",
+            "Wi-Fi is a wireless networking technology that uses radio waves to connect devices to the internet and each other. It's a fundamental part of modern home and business networks, enabling devices like phones, laptops, and smart home devices to connect wirelessly. Wi-Fi has different frequency bands such as 2.4 GHz, 5GHz, 6GHz. All these frequency bands all have their own pros and cons in terms of speed and range. A router is a hub for a Wi-Fi network for connecting devices to the internet and broadcasting the signal around it. In most household Wi-Fi networks there is a password protecting the network to prevent unwanted devices from joining the network and potentially getting hacked. When a device wants to connect to a Wi-Fi network it scans for a network by broadcasting a “probe request”. If the requested network is found the device attempts to connect with the correct SSID and password. Once connected, the device can either communicate with other devices on the network or access the internet.",
+            "images/wifi-diagram.png",
+            "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/Wi-Fi\" target=\"_blank\">https://en.wikipedia.org/wiki/Wi-Fi</a><a class=\"a\" href=\"https://www.cisco.com/c/en/us/products/wireless/what-is-wifi.html\" target=\"_blank\">https://www.cisco.com/c/en/us/products/wireless/what-is-wifi.html</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"cellular\">Cellular Network",
+            "A cellular network or mobile network is a telecommunications network where the link to and from end nodes is wireless and the network is distributed over land areas called cells, each served by at least one fixed-location transceiver (such as a base station). These base stations provide the cell with the network coverage which can be used for transmission of voice, data, and other types of content via radio waves. Each cell's coverage area is determined by factors such as the power of the transceiver, the terrain, and the frequency band being used. A cell typically uses a different set of frequencies from neighboring cells, to avoid interference and provide guaranteed service quality within each cell. When joined together, these cells provide radio coverage over a wide geographic area. This enables numerous devices, including mobile phones, tablets, laptops equipped with mobile broadband modems, and wearable devices such as smartwatches, to communicate with each other and with fixed transceivers and telephones anywhere in the network, via base stations, even if some of the devices are moving through more than one cell during transmission. The design of cellular networks allows for seamless handover, enabling uninterrupted communication when a device moves from one cell to another.",
+            "images/cellular-network.png",
+            "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/Cellular_network\" target=\"_blank\">https://en.wikipedia.org/wiki/Cellular_network</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"satellite\">Satellite</h3>",
+            "Satellite Navigation is based on a global network of satellites that transmit radio signals from medium earth orbit. Users of Satellite Navigation are most familiar with the 31 Global Positioning System (GPS) satellites developed and operated by the United States. Three other constellations also provide similar services. Collectively, these constellations and their augmentations are called Global Navigation Satellite Systems (GNSS). The other constellations are GLONASS developed and operated by the Russian Federation, Galileo developed and operated by the European Union, and BeiDou, developed and operated by China. All providers have offered free use of their respective systems to the international community. All providers have developed International Civil Aviation Organization (ICAO) Standards and Recommended Practices to support use of these constellations for aviation.The basic GPS service provides users with approximately 7.0 meter accuracy, 95% of the time, anywhere on or near the surface of the earth. To accomplish this, each of the 31 satellites emits signals that enable receivers through a combination of signals from at least four satellites, to determine their location and time. GPS satellites carry atomic clocks that provide extremely accurate time. The time information is placed in the codes broadcast by the satellite so that a receiver can continuously determine the time the signal was broadcast. The signal contains data that a receiver uses to compute the locations of the satellites and to make other adjustments needed for accurate positioning. The receiver uses the time difference between the time of signal reception and the broadcast time to compute the distance, or range, from the receiver to the satellite. The receiver must account for propagation delays or decreases in the signal's speed caused by the ionosphere and the troposphere. With information about the ranges to three satellites and the location of the satellite when the signal was sent, the receiver can compute its own three-dimensional position. An atomic clock synchronized to GPS is required in order to compute ranges from these three signals. However, by taking a measurement from a fourth satellite, the receiver avoids the need for an atomic clock. Thus, the receiver uses four satellites to compute latitude, longitude, altitude, and time.",
+            "images/satellite.jpg",
+            "Sources: <a class=\"a\" href=\"https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks\" target=\"_blank\">https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"bluetooth\"Bluetooth</h3>",
+            "Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs). In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres (33 ft). It employs UHF radio waves in the ISM bands, from 2.402 GHz to 2.48 GHz. It is mainly used as an alternative to wired connections to exchange files between nearby portable devices and connect cell phones and music players with wireless headphones, wireless speakers, HIFI systems, car audio and wireless transmission between TVs and soundbars. Bluetooth is managed by the Bluetooth Special Interest Group (SIG), which has more than 35,000 member companies in the areas of telecommunication, computing, networking, and consumer electronics. The IEEE standardized Bluetooth as IEEE 802.15.1 but no longer maintains the standard. The Bluetooth SIG oversees the development of the specification, manages the qualification program, and protects the trademarks. A manufacturer must meet Bluetooth SIG standards to market it as a Bluetooth device. A network of patents applies to the technology, which is licensed to individual qualifying devices. As of 2021, 4.7 billion Bluetooth integrated circuit chips are shipped annually. Bluetooth was first demonstrated in space in 2024, an early test envisioned to enhance IoT capabilities. Bluetooth is a short range wireless technology standard for conversing data between paired devices.",
+            "images/bluetooth.png",
+            "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/Bluetooth\" target=\"_blank\">https://en.wikipedia.org/wiki/Bluetooth</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"zigface\">Zigbee, Z-wave and Matter</h3>",
+            "Zigbee, Z-Wave, and Matter are communication protocols used in smart homes to connect devices. While Z-Wave and Zigbee are existing protocols, Matter aims to unify them and other protocols like Wi-Fi and Thread. Matter aims to create a more versatile smart home by interconnecting different technologies, including Zigbee and Z-Wave. Zigbee operates at 2.4GHz which is a frequency also used by Wi-Fi and Bluetooth sometimes causing interference. It also uses a mesh topology where devices can communicate directly or through other devices. Z-Wave on the other hand uses lower frequencies to avoid interference with other devices such as phones, Wi-Fi and bluetooth. It also uses a mesh topology and is more well known for its reliability because it makes all devices go through a strict certification process. Matter was designed to unify Zigbee and Z-Wave to simplify the smart home ecosystem by connecting them with gateway or “bridge” devices.",
+            "images/zigface.png",
+            "Sources: <a class=\"a\" href=\"https://www.silabs.com/blog/matter-vs-z-wave-what-you-need-to-know\" target=\"_blank\">https://www.silabs.com/blog/matter-vs-z-wave-what-you-need-to-know</a><a class=\"a\" href=\"https://www.dfrobot.com/blog-13453.html\" target=\"_blank\">https://www.dfrobot.com/blog-13453.html</a><a class=\"a\" href=\"https://reolink.com/blog/matter-vs-zigbee/\" target=\"_blank\">https://reolink.com/blog/matter-vs-zigbee/</a>",
+         ],
+         ];
     load(rows);
 </script>
 </body>

@@ -2,8 +2,12 @@ function load(rows) {
 
     const container = document.getElementById("content");
 
-    rows.forEach(([header, term, info, image, sources]) => {
+    rows.forEach(([subheading, term, info, image, sources]) => {
         const section = document.createElement("section");
+
+        const subheading_element = document.createElement("h1");
+        subheading_element.innerHTML = subheading;
+        subheading_element.className = "subheading";
 
         const term_element = document.createElement("h2");
         term_element.innerHTML = term;
@@ -23,6 +27,7 @@ function load(rows) {
 
         const hr = document.createElement("hr")
 
+        section.appendChild(subheading_element);
         section.appendChild(term_element);
         section.appendChild(info_element);
         section.appendChild(image_element);
@@ -30,4 +35,12 @@ function load(rows) {
         section.appendChild(hr);
         container.appendChild(section);
     });
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
