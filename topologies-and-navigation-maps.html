@@ -14,22 +14,86 @@
         </h3>
      </nav>
    <div class="headerbox">
-       <h1 class="header"><span>HEADING</span></h1>
+       <h1 class="header"><span>Topologies and Navigation Maps</span></h1>
+   </div>
+   <button onclick="topFunction()" id="myBtn" title="Return To Top">Return To Top</button>
+
+   <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+   </script>
+   <div id="content">
+
    </div>
 
-   <div class="infobox1">
-       <h2 class="subheading">Subheading</h2>
-       <hr>
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <h2 class="subsubheading">Subsubheading</h2>
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-
-       <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sem at elit sollicitudin euismod a sit amet neque. Nunc dapibus mauris eleifend ligula tristique pulvinar. Nulla sed lacinia libero, eget cursus orci. Morbi tristique vestibulum blandit. Donec consectetur eros eu lorem sollicitudin faucibus. Curabitur tincidunt auctor felis, ut condimentum turpis dictum et. Sed vehicula tortor sed eleifend venenatis. Nunc sed dolor ornare, maximus turpis a, rutrum tortor. Cras eget neque aliquam, tincidunt ligula eget, posuere ex. Mauris ullamcorper feugiat ligula, vel luctus mauris eleifend in. Praesent sed euismod nunc. Duis convallis consequat lacus, vitae imperdiet velit suscipit quis. Sed feugiat lacus et dolor blandit interdum. Vivamus tortor lectus, bibendum at sapien eu, eleifend efficitur lacus.</p>
-       <hr>
-   </div>
+   <script>
+    // Each row is:
+    //    [
+    //    header,
+    //    term,
+    //    definition,
+    //    image source,
+    //    sources
+    //    ]
+    const rows = [
+        [
+            "What is a Topology?",
+            "<h3 id=\"lanwan\">LANs vs WANs</h3>",
+            "LAN and WAN are different types of computer networks defined by their geographical scope. A LAN (Local Area Network) connects devices within a small, contained area, like a home or office. On the other hand a WAN (Wide Area Network) connects devices across larger geographical distances, potentially spanning cities, countries, or even the globe.",
+            "images/lanwan.jpeg",
+            "Sources: <a class=\"a\" href=\"https://aws.amazon.com/compare/the-difference-between-lan-and-wan\" target=\"_blank\">https://aws.amazon.com/compare/the-difference-between-lan-and-wan</a><a class=\"a\" href=\"https://www.cloudflare.com/learning/network-layer/what-is-a-wan/\" target=\"_blank\">https://www.cloudflare.com/learning/network-layer/what-is-a-wan/</a>",
+        ],
+        [
+            "",
+            "<h3 id=\"client-model\">Client-Server Model",
+            "The client-server model is a network architecture where clients request services or resources from servers, and the servers then respond to those requests. This model divides tasks between clients (requesters) and servers (service providers), enhancing efficiency and resource management. A program on the client’s device can request for services or resources from the server and the server will react as necessary to the request. The client’s server model allows for easy scalability for higher demand. Some programs that request services and resources from servers include: browsers, E-mail, other applications or websites like ChatGTP where the processing takes place on a server in the open AI database.",
+            "images/The-client-server-model.png",
+            "Sources: <a class=\"a\" href=\"https://www.zenarmor.com/docs/network-basics/what-is-client-server-network\" target=\"_blank\">https://www.zenarmor.com/docs/network-basics/what-is-client-server-network</a><a class=\"a\" href=\"https://www.sciencedirect.com/topics/computer-science/client-server-model\" target=\"_blank\">https://www.sciencedirect.com/topics/computer-science/client-server-model</a><a class=\"a\" href=\"https://www.supermicro.com/en/glossary/client-server-architecture\" target=\"_blank\">https://www.supermicro.com/en/glossary/client-server-architecture</a>"
+        ],
+        [
+            "",
+            "<h3 id=\"bus\">Bus Topology</h3>",
+            "In a bus topology, all network devices connect to a single shared cable, referred to as the \"bus,\" which acts as a central communication line. This cable serves as a shared medium, allowing all connected devices to receive the same signal simultaneously. Data transmission occurs by each device listening for its address on the shared cable, and only responding to messages intended for it. Advantages of the bus topology are that it is simple and cost-effective compared to other topologies as it needs less cabling and is easier to install. It is also easy to scale as it is easy to add devices to the network. Disadvantages of the bus topology is that there is a single point of failure the whole network will be affected. The more devices connected to the network, the more laid is going to be on the bus, possibly creating bottlenecks in the network. There is also a security risk as every device can see what is being transmitted through the network.",
+            "images/bus.png",
+            "Sources: <a class=\"a\" href=\"https://www.lenovo.com/us/en/glossary/bus-topology\" target=\"_blank\">https://www.lenovo.com/us/en/glossary/bus-topology</a><a class=\"a\" href=\"https://www.cbtnuggets.com/blog/technology/networking/what-is-bus-topology\" target=\"_blank\">https://www.cbtnuggets.com/blog/technology/networking/what-is-bus-topology</a><a class=\"a\" href=\"https://www.shiksha.com/online-courses/articles/what-is-a-bus-topology-blogId-156107\" target=\"_blank\">https://www.shiksha.com/online-courses/articles/what-is-a-bus-topology-blogId-156107</a>",
+        ],
+        [
+            "",
+            "<h3 id=\"star\">Star Topology</h3>",
+            "A star topology is a network configuration where all devices (computers, printers, etc.) are connected to a central hub or switch. This arrangement resembles a star, with cables radiating from the central point. It's a common design for local area networks (LANs) and is known for its ease of installation, management, and troubleshooting. Other advantages are that the network can be easily expanded by just connecting to the central hub. The disadvantages of the star topology is that if the central hub fails, the entire network can become unstable. There can also be bottlenecks from the hub if it is overloaded. A star topology is also expensive as each device needs its own cable from the central hub.",
+            "images/star.png",
+            "Sources: <a class=\"a\" href=\"https://www.ebsco.com/research-starters/computer-science/star-topology\" target=\"_blank\">https://www.ebsco.com/research-starters/computer-science/star-topology</a><a class=\"a\" href=\"https://www.lenovo.com/us/en/glossary/star-topology\" target=\"_blank\">https://www.lenovo.com/us/en/glossary/star-topology</a>",
+        ],
+        [
+            "",
+            "<h3 id=\"ring\">Ring Topology</h3>",
+            "In a ring topology, network devices are interconnected in a circular manner, forming a closed loop. Each device connects to exactly two other devices, creating a continuous path for data transmission. Data travels in one direction around the ring, passing through each device until it reaches its destination. Advantages of a ring topology is that it is easy to implement and data can travel relatively fast around the network. A redundancy ring can be added making it a dual ring topology. Disadvantages of a ring topology is that if a single connection or device fails, everything down the line will be disconnected. It is also difficult to troubleshoot a ring topology as the issue could be higher in the network stream. A ring topology is also less scalable making it harder to expand and the cost of the connecting hardware for the devices can be more expensive than other topologies.",
+            "images/ring.jpg",
+            "Sources: <a class=\"a\" href=\"https://www.lenovo.com/us/en/glossary/what-is-ring-topology\" target=\"_blank\">https://www.lenovo.com/us/en/glossary/what-is-ring-topology</a><a class=\"a\" href=\"https://www.zenarmor.com/docs/network-basics/what-is-ring-topology\" target=\"_blank\">https://www.zenarmor.com/docs/network-basics/what-is-ring-topology</a>",
+        ],
+        [
+            "",
+            "<h3 id=\"mesh\">Mesh Topology</h3>",
+            "In mesh topology, every device in a network is directly connected to every other device, creating multiple paths for data transmission. This decentralized structure enhances redundancy and fault tolerance, as data can be rerouted through alternative connections if one path fails. Mesh networks are often used in wireless environments like Wi-Fi systems and sensor networks. Advantages of the mesh topology is that if any connections are damaged, there are other routes that the data can take to get to the destination. Another advantage is that another device can be added to the network without a disruption. It is also very versatile being used in home networks and mobile networks. Disadvantages of a mesh topology are that it is very complex to manage and run and very expensive as the amount of connections is quite high.",
+            "images/mesh.jpg",
+            "Sources: <a class=\"a\" href=\"https://www.lenovo.com/au/en/glossary/mesh-topology/\" target=\"_blank\">https://www.lenovo.com/au/en/glossary/mesh-topology/</a><a class=\"a\" href=\"https://www.sciencedirect.com/topics/computer-science/mesh-topology\" target=\"_blank\">https://www.sciencedirect.com/topics/computer-science/mesh-topology</a>",
+        ],
+        [
+            "",
+            "<h3 id=\"hybrid\">Hybrid Topology</h3>",
+            "A hybrid topology in networking combines two or more different basic network topologies to create a more versatile and robust network structure. It leverages the strengths of each individual topology while mitigating their weaknesses, resulting in a network that can adapt to various needs and environments. Advantages of a hybrid topology is that it can combine the advantages of other topologies into one making it more redundant, more reliable, more cost effective etc. The hybrid topology can be adapted to its environment much easier making it more versatile. Disadvantages of a hybrid topology is that it is much harder to manage and troubleshoot due to the complexity of the network. It is also more expensive than simpler topologies.",
+            "images/hybrid.png",
+            "Sources: <a class=\"a\" href=\"https://study.com/academy/lesson/hybrid-networking-topologies-types-uses-examples.html\" target=\"_blank\">https://study.com/academy/lesson/hybrid-networking-topologies-types-uses-examples.html</a>"
+        ],
+        [
+            "",
+            "<h3 id=\"navigation\">Navigation Maps</h3>",
+            "",
+            "images/navigation.png",
+            "Sources: <a class=\"a\" href=\"https://oravus.github.io/RoboHop\" target=\"_blank\">https://oravus.github.io/RoboHop</a><a class=\"a\" href=\"https://arxiv.org/abs/2410.11492\" target=\"_blank\">https://arxiv.org/abs/2410.11492</a><a class=\"a\" href=\"https://ieeexplore.ieee.org/document/5980074/\" target=\"_blank\">https://ieeexplore.ieee.org/document/5980074/</a>"
+        ],
+    ]
+    load(rows);
+   </script>
 </body>
 </html>
