@@ -16,6 +16,13 @@
    <div class="headerbox">
        <h1 class="header" id="heading">WELCOME</h1>
    </div>
+
+   <button onclick="topFunction()" id="myBtn" title="Return To Top">Return To Top</button>
+
+   <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+   </script>
    <hr>
    <div id="content">
 
@@ -31,13 +38,13 @@
         //    sources
         //    ]
         const rows = [
-             [
+            [
                 "Welcome to our website!",
                 "",
                 "This site is dedicated to being a \<span class=\"bold\">glossary/dictionary for terms relating to different parts of networking between computers and people\</span\>. You can find accurate definitions and explanations of each term in their own respective webpages, which you can navigate through using the dropdown navigation bar at the top of the page.",
                 "images\/welcome_mat.png",
                 "Website created by Sam and Adam"
-             ]
+            ],
              
         ];
         load(rows);
