@@ -122,7 +122,10 @@ hr {
   background-color: #223b1f;
   color: white;
   padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 14px;
+  
   border: solid 1px green;
   cursor: pointer;
   border-radius: 10px;
@@ -141,6 +144,7 @@ hr {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
+  box-shadow: 0 5px 5px 0 #333, 0 5px 5px 0 #333;
 }
 
 .dropdown-content .drop-a {
