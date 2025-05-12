@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <title>Data Processing and Transmission</title>
    <link rel="stylesheet" href="styles.css">
-   <script src="scripts/glossary.js"></script>
+   <script src="scripts/scripts.js"></script>
    <link rel="icon" type="image/x-icon" href="images/light-bulb-logo.png">
 </head>
 <body>
@@ -73,9 +73,8 @@
             <a class="drop-a" href="data_processing_transmission.html#dns">DNS</a>
             <a class="drop-a" href="data_processing_transmission.html#tcpip">TCP/IP</a>
             <a class="drop-a" href="data_processing_transmission.html#ftp">FTP</a>
-            <a class="drop-a" href="data_processing_transmission.html#"></a>
-            <a class="drop-a" href="data_processing_transmission.html#"></a>
-            <a class="drop-a" href="data_processing_transmission.html#"></a>
+            <a class="drop-a" href="data_processing_transmission.html#https">HTML and HTTP and HTTPS</a>
+            <a class="drop-a" href="data_processing_transmission.html#IPvMAC">IP Address vs Mac Address</a>
          </div>
        </div>
        <div class="dropdown">
@@ -128,14 +127,14 @@
           "",
           "<h3 id=\"dns\">DNS</a>",
           "The Domain Name System (DNS) acts as the \"phone book\" of the internet, translating human-readable domain names for example, \"google.com\" into the numerical IP addresses that computers use to communicate. Without DNS, you would need to memorize long lists of numbers to visit websites. A DNS is basically an IP address in words that we can remember. For some websites they need multiple DNS lookups to fully load a webpage, this webpage could have embedded media  that needs to be loaded through another domain.",
-          "images/",
+          "images/dns.png",
           "Sources: <a class=\"a\"></a>",
          ],
          [
           "",
           "<h3 id=\"tcpip\">TCP/IP</a>",
-          "",
-          "images/",
+          "TCP/IP allows for computers and servers to have their own address on the internet. This allows for data to be sent to the correct destination without fail. Each IP address must be unique in its network. Networks can be connected to each other to be able to provide a bridge for communication between the different devices on each network. A system called Network Address Translation is able to rewrite the IP addresses to allow data packets to traverse network borders and reach their intended destinations.",
+          "images/tcpip.jpg",
           "Sources: <a class=\"a\"></a>",
          ],
          [
@@ -144,6 +143,20 @@
             "FTP stands for File Transfer Protocol. It is a standard network protocol used to transfer files between a client and a server on a computer network. FTP is built on a client-server model and uses separate control and data connections for communication. An FTP operates on a client server model where the client connects to a server to transfer files. An FTP has two connections; one for sending commands and replies, and the other for transferring the data. Common uses were for web developers to make changes to websites on the internet. FTP is now an outdated protocol due to its security issues.",
             "images/ftp.jpg",
             "Sources: <a class=\"a\" href=\"https://en.wikipedia.org/wiki/File_Transfer_Protocol \" target=\"_blank\">https://en.wikipedia.org/wiki/File_Transfer_Protocol </a><a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/definition/File-Transfer-Protocol-FTP\" target=\"_blank\">https://www.techtarget.com/searchnetworking/definition/File-Transfer-Protocol-FTP</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"https\">HTML and HTTP and HTTPS</h3>",
+            "HTML, HTTP and HTTPS are the primary web technologies that build the websites we see on the internet. HTML is the language used to structure web pages, while HTTP and HTTPS are protocols used to allow communication between web browsers and servers. HTTPS is the same as HTTP, but it encrypts data before transmitting whereas HTTP sends data in plaintext.",
+            "images/https-vs-http.png",
+            "Sources: <a class=\"a\" href=\"https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/\" target=\"_blank\">https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/</a>",
+         ],
+         [
+            "",
+            "<h3 id=\"IPvMAC\">IP Address vs Mac Address</h3>",
+            "In networking terms, a Media Access Control (MAC) address identifies a device on a local network. An Internet Protocol (IP) address identifies a device across multiple networks and the internet. MAC addresses are used to identify devices within a LAN, while IP addresses are used to identify devices across large networks, such as the internet, and they can dynamically change.",
+            "images/ipvmac.jpg",
+            "Sources: <a class=\"a\" href=\"https://www.techtarget.com/searchnetworking/answer/What-is-the-difference-between-an-IP-address-and-a-physical-address\" target=\"_blank\">https://www.techtarget.com/searchnetworking/answer/What-is-the-difference-between-an-IP-address-and-a-physical-address</a>",
          ],
     ];
     load(rows);
