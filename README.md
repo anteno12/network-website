@@ -15,5 +15,3 @@ Create a new branch from main to make your changes. Once your are ready to merge
 
 # Project References
 <a href="https://docs.google.com/document/d/1up39_5C3NOnsVutWei_PAgvkNSOf67DTAUlSJYuM9w8/edit?usp=drive_link">Website Content (Google Docs)</a>
-
-[Website Content (Google Doc)](https://docs.google.com/document/d/1up39_5C3NOnsVutWei_PAgvkNSOf67DTAUlSJYuM9w8/edit?usp=drive_link)
