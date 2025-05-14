@@ -7,40 +7,112 @@
   <script src="scripts/glossary.js"></script>
 </head>
 <body>
-    <nav class="nav-cell">
-      <h3>
-        <a href=index.html><button>Home</button></a><a href="network_hardware.html"><button>Network Hardware</button></a><a href="computer_and_social_networks.html"><button>Computer and Social Networks</button></a><a href="transmission_media.html"><button>Transmission Media</button></a><a href="technologies_and_navmaps.html"><button>Topologies and Navigation Maps</button></a><a href="data_processing_transmission.html"><button>Data Processing and Transmission</button></a><a href="network_security.html"><button>Network Security</button></a><a href="social_networking_case_study.html"><button>Social Networking Case Study</button></a>
-      </h3>
-    </nav>
+   <nav class="nav-cell">
+      <div class="dropdown">
+         <a class="drop-a" href="index.html"><button class="dropbtn">Home</button></a>
+         <div class="dropdown-content">
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="computer_and_social_networks.html"><button class="dropbtn">Computer and Social Networks</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="computer_and_social_networks.html#ARPANET">ARPANET</a>
+           <a class="drop-a" href="computer_and_social_networks.html#bandwidth">Bandwidth</a>
+           <a class="drop-a" href="computer_and_social_networks.html#binary">The Binary System</a>
+           <a class="drop-a" href="computer_and_social_networks.html#bytes">Bits, Bytes, Kilobytes and Megabytes</a>
+           <a class="drop-a" href="computer_and_social_networks.html#iot">Internet of Me/Internet of Things</a>
+           <a class="drop-a" href="computer_and_social_networks.html#entities-in-social-network">Entities in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#relationships-in-social-network">Relationships in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#events-in-social-network">Events in a Social Network</a>
+           <a class="drop-a" href="computer_and_social_networks.html#sociograms">Sociograms</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="network_hardware.html"><button class="dropbtn">Network Hardware</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="network_hardware.html#nodes">Nodes</a>
+           <a class="drop-a" href="network_hardware.html#hubs">Hubs</a>
+           <a class="drop-a" href="network_hardware.html#routers">Routers</a>
+           <a class="drop-a" href="network_hardware.html#switches">Switches</a>
+           <a class="drop-a" href="network_hardware.html#wap">Wireless Access Points</a>
+           <a class="drop-a" href="network_hardware.html#servers">Servers</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="transmission_media.html"><button class="dropbtn">Transmission Media</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="transmission_media.html#utp">UTP Cables</a>
+           <a class="drop-a" href="transmission_media.html#copper">Copper Wire</a>
+           <a class="drop-a" href="transmission_media.html#coax">Coaxial Cables</a>
+           <a class="drop-a" href="transmission_media.html#fiber">Fiber Optic Cables</a>
+           <a class="drop-a" href="transmission_media.html#wifi">Wi-Fi</a>
+           <a class="drop-a" href="transmission_media.html#cellular">Cellular Network</a>
+           <a class="drop-a" href="transmission_media.html#satellite">Satellite</a>
+           <a class="drop-a" href="transmission_media.html#bluetooth">Bluetooth</a>
+           <a class="drop-a" href="transmission_media.html#zigface">Zigbee, Z-Wave and Matter</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="topologies-and-navigation-maps.html"><button class="dropbtn">Topologies and Navigation Maps</button></a>
+         <div class="dropdown-content">
+            <a class="drop-a" href="topologies-and-navigation-maps.html#lanwan">LANs vs WANs</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#client-model">Client-Server Model</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#bus">Bus Topology</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#star">Star Topology</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#ring">Ring Topology</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#mesh">Mesh Topology</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#hybrid">Hybrid Topology</a>
+            <a class="drop-a" href="topologies-and-navigation-maps.html#navigation">Navigation Maps</a>  
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="data_processing_transmission.html"><button class="dropbtn">Data Processing and Transmission</button></a>
+         <div class="dropdown-content">
+            <a class="drop-a" href="data_processing_transmission.html#handshaking">What is Handshaking?</a>
+            <a class="drop-a" href="data_processing_transmission.html#dns">DNS</a>
+            <a class="drop-a" href="data_processing_transmission.html#tcpip">TCP/IP</a>
+            <a class="drop-a" href="data_processing_transmission.html#ftp">FTP</a>
+            <a class="drop-a" href="data_processing_transmission.html#https">HTML and HTTP and HTTPS</a>
+            <a class="drop-a" href="data_processing_transmission.html#IPvMAC">IP Address vs Mac Address</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="network_security.html"><button class="dropbtn">Network Security</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="network_security.html#malware">Types of Malware</a>
+           <a class="drop-a" href="network_security.html#social-engineering">Social Engineering</a>
+           <a class="drop-a" href="network_security.html#cyber-prot">Protecting Yourself from Cybercrimes</a>
+         </div>
+       </div>
+       <div class="dropdown">
+         <a class="drop-a" id="dropbar" href="social_networking_case_study.html"><button class="dropbtn">Social Network Case Study</button></a>
+         <div class="dropdown-content">
+           <a class="drop-a" href="social_networking_case_study.html#socialmediamilestones">Social Media Milestones</a>
+           <a class="drop-a" href="social_networking_case_study.html#comparingcontent">Comparing Content</a>
+           <a class="drop-a" href="social_networking_case_study.html#discord">Discord Pros and Cons</a>
+         </div>
+       </div>
+   </nav>
     <div class="headerbox">
       <h1 class="header"><span>SOCIAL MEDIA CASE STUDY</span></h1>
    </div>
     <div class="video">    
       <iframe width="878" height="494" src="https://www.youtube.com/embed/6J9Wy_Fhdz0" title="Most Popular Social Media Platforms 1997 - 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <hr>
-    <div id="content">
-       
-    </div>
-    <script class="">
-     // Each row is:
-     //    [
-     //    header,
-     //    term,
-     //    definition,
-     //    image source,
-     //    sources
-     //    ]
-     const rows = [
-          [
-             "",
-             "Our Investigation into the History of Social Media",
-             "Since social media has come such a long way since its inception in 1997, we decided to do a little digging to find out the many different platforms that shaped the way we chat, call and connect from across the globe. The link below shows a simple timeline of how social media evolved, along with a table on one of our favourite social media platforms, showing what makes it great and not-so-great.",
-             "",
-             "<a  class=\"a\" href=\"https:\/\/www.canva.com\/design\/DAGlm-3KMWM\/qNKT0zO17nkrAimIW3AMsg\/view?utm_content=DAGlm-3KMWM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7fe0adad44\">https://www.canva.com/design/DAGlm-3KMWM/qNKT0zO17nkrAimIW3AMsg/view?utm_content=DAGlm-3KMWM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7fe0adad44<\/a>"
-          ],
-     ];
-     load(rows);
- </script>
+    <hr></hr>
+<div class="case-study-img">
+  <img class="image-alt" id="socialmediamilestones" height="400" width="600" src="images/Screenshot1.png">
+  <img class="image-alt" height="400" width="600" src="images/Screenshot 2025-05-12 110700.png">
+  <img class="image-alt" height="400" width="600" src="images/Screenshot 2025-05-12 110725.png">
+  <hr>
+  <img class="image-alt" id="comparingcontent" height="400" width="600" src="images/Screenshot 2025-05-12 110746.png">
+  <h1 class="subheading" id="comparing_content">Comparison Between Online Content from 20 Years Ago and the Present</h1>
+  <hr>
+  <img class="image-alt" id="discord" height="400" width="600" src="images/Screenshot 2025-05-12 110805.png">
+  <h1 class="subheading" id="discord_pnc">Pros and Cons of Discord</h1>
+</div>
+
+<hr></hr>
+
 </body>
 </html>
