@@ -156,7 +156,11 @@ hr {
   display: block;
   font-family: ubuntu;
 }
+<<<<<<< Updated upstream
   
+=======
+
+>>>>>>> Stashed changes
 .dropdown-content .drop-a:hover {
     background-color: #ddd;
     border-radius: 10px;
@@ -194,6 +198,7 @@ html {
 #myBtn:hover {
     background-color: green;
     border-color: #223b1f;
+    box-shadow: 0 5px 5px 0 #333, 0 5px 5px 0 #333;
 }
 .alta {
     padding: 5px;
