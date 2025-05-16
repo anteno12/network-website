@@ -49,14 +49,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-
-function click() {
-  const x = document.getElementById("result");
-  if (localStorage.clickcount > 9) {
-    mybutton.style.display = "block";
-  }
-  else {
-    mybutton.style.display = "none";
-  }
-}
